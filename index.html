@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+<link rel="shortcut icon" type="image/png" href="musiciconbrowser1.png"/>
+
+    <title>Pipeline</title>
+
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/gradients.css">
+
+    <link rel="stylesheet" href="libs/css/animate.css">
+    <link rel="stylesheet" href="libs/css/delays.css">
+
+<!--still needs background-->
+
+<style>
+body {
+  background: #B993D6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* Three columns side by side */
+.column {
+ float: left;
+ width: 33.3%;
+ margin-bottom: 16px;
+ padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+ .column {
+   width: 100%;
+   display: block;
+ }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+ padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+
+.title {
+ color: grey;
+}
+
+.button {
+ border: none;
+ outline: 0;
+ display: inline-block;
+ padding: 8px;
+ color: white;
+ background-color: #000;
+ text-align: center;
+ cursor: pointer;
+ width: 100%;
+}
+
+.button:hover {
+ background-color: #555;
+}
+</style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark shadow">
+      <a class="navbar-brand" href="index.html">
+        <img class="align-top ml-n1" height="32px" src="logo/dark-sm.png">
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="calendar.html">Calendar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="blog.html">Blog</a>
+          <li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid row m-0 py-4 py-md-5 bg-grad-quepal animated fadeIn slower shadow">
+
+      <div class="col-sm-2 col-md-3 col-xl-4"></div>
+
+      <div class="col-sm animated fadeIn fast delay-0p5s">
+        <img class="img-fluid animated flip delay-0p5s" src="logo/light-lg.png">
+      </div>
+
+      <div class="col-sm-2 col-md-3 col-xl-4"></div>
+    </div>
+
+    <script src="libs/js/jquery-3.4.1.min.js"></script>
+    <script src="libs/js/popper.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+    <br>     </br>
+    <style>
+picture {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+      </style>
+      <hr>
+  <center>  ​<picture>
+  <img src="singerwanted.png" alt="singerwanted" class="left">
+</div>
+</picture>
+<br>       </br>
+<hr>
+ <h1>Members</h1> </center>
+<hr>
+<!--addition-->
+<center>
+ <div class="column">
+   <div class="card">
+     <img src="danny.png" alt="dannyprofile" style="width:100%">
+     <div class="container">
+       <h2>Danny</h2>
+       <p class="title">"Bass"</p>
+       <p><button class="button" onclick="window.location.href='danny.html'">About</button></p>
+     </div>
+   </div>
+ </div>
+
+ <div class="column">
+   <div class="card">
+     <img src="jack.png" alt="jackprofile" style="width:100%">
+     <div class="container">
+       <h2>Jack</h2>
+       <p class="title">"Guitar"</p>
+       <p><button class="button" onclick="window.location.href='jack.html'">About</button></p>
+     </div>
+   </div>
+ </div>
+
+ <div class="column">
+   <div class="card">
+     <img src="sam.png" alt="samprofile" style="width:100%">
+     <div class="container">
+       <h2>Sam</h2>
+       <p class="title">"Drums"</p>
+       <p><button class="button" onclick="window.location.href='sam.html'">About</button></p>
+     </div>
+   </div>
+ </div>
+</div>
+
+<div class="column">
+  <div class="card">
+    <img src="drew.png" alt="drewprofile" style="width:100%">
+    <div class="container">
+      <h2>Drew</h2>
+      <p class="title">"Keys"</p>
+      <p><button class="button" onclick="window.location.href='drew.html'">About</button></p>
+    </div>
+  </div>
+</div>
+</div>
+</center>
+<!--end addition-->
+
+<div></div>
+
+
+  </body>
+
+</html>
